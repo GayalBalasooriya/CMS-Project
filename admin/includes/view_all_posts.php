@@ -231,7 +231,7 @@ echo "<td><img width='100' src='../images/$post_image' alt='image'></td>";
         $send_comment_query = mysqli_query($connection, $query);
 
         $row = mysqli_fetch_array($send_comment_query);
-        $comment_id = $row['comment_id'];
+        // $comment_id = $row['comment_id'];
         $count_comments = mysqli_num_rows($send_comment_query);
 
 
